@@ -3,7 +3,7 @@ package wallet.exceptions;
 import org.conciergej.core.Coin;
 
 /**
- * Created by furszy on 8/9/17.
+ * Created by akshaynexus on 8/9/17.
  */
 
 public class InsufficientInputsException extends Exception {

@@ -54,7 +54,7 @@ import pivtrum.messages.responses.Unspent;
 import pivtrum.utility.TxHashHeightWrapper;
 
 /**
- * Created by furszy on 6/12/17.
+ * Created by akshaynexus on 6/12/17.
  *
  * Class in charge of connect to a single peer on the network
  *

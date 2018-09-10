@@ -7,7 +7,7 @@ import org.conciergej.params.TestNet3Params;
 import global.WalletConfiguration;
 
 /**
- * Created by furszy on 6/16/17.
+ * Created by akshaynexus on 6/16/17.
  */
 
 public class WalletConfigurationsImp implements WalletConfiguration {

@@ -6,7 +6,7 @@ import java.util.List;
 import pivtrum.PivtrumPeerData;
 
 /**
- * Created by furszy on 7/2/17.
+ * Created by akshaynexus on 7/2/17.
  */
 
 public class PivtrumGlobalData {

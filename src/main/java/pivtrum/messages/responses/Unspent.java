@@ -1,7 +1,7 @@
 package pivtrum.messages.responses;
 
 /**
- * Created by furszy on 6/18/17.
+ * Created by akshaynexus on 6/18/17.
  */
 
 public class Unspent {

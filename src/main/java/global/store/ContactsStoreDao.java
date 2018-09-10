@@ -5,7 +5,7 @@ import global.AddressLabel;
 import java.util.List;
 
 /**
- * Created by furszy on 3/3/18.
+ * Created by akshaynexus on 3/3/18.
  */
 
 public interface ContactsStoreDao<T> extends AbstractDbDao<T> {

@@ -1,7 +1,7 @@
 package pivtrum;
 
 /**
- * Created by furszy on 6/13/17.
+ * Created by akshaynexus on 6/13/17.
  */
 
 public class PivtrumPeerData {

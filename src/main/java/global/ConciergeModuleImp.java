@@ -52,6 +52,8 @@ import global.exceptions.NoPeerConnectedException;
 import org.spongycastle.crypto.params.KeyParameter;
 import org.spongycastle.util.encoders.Base64;
 import org.spongycastle.util.encoders.Hex;
+
+import pivtrum.PivtrumPeergroup;
 import wallet.exceptions.InsufficientInputsException;
 import wallet.exceptions.TxNotFoundException;
 import wallet.WalletManager;
@@ -93,11 +95,10 @@ public class ConciergeModuleImp implements ConciergeModule {
     }
 
     // todo: clean this.
-    //public void setPivtrumPeergroup(PivtrumPeergroup peergroup){
-        //peergroup.setAddressStore(addressStore);
-        //peergroup.setWalletManager(walletManager);
-        //this.peergroup = peergroup;
-    //}
+//    public void setPivtrumPeergroup(PivtrumPeergroup peergroup){
+//        //peergroup.setAddressStore(addressstiew);
+//        peergroup.setWalletManager(walletManager);
+//    }
 
     @Override
     public void createWallet() {
@@ -175,8 +176,15 @@ public class ConciergeModuleImp implements ConciergeModule {
     }
 
     @Override
-    public List<AddressLabel> getContacts(){
+    public List<AddressLabel> getContacts()
+    { if ( contactsStore.getContacts() == null){
+
+    }
+    else {
         return contactsStore.getContacts();
+
+    }
+         return null;
     }
 
     @Override

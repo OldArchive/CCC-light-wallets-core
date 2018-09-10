@@ -30,7 +30,7 @@ import store.CantInsertAddressException;
 import wallet.WalletManager;
 
 *
- * Created by furszy on 6/15/17.
+ * Created by akshaynexus on 6/15/17.
  * todo: probar qué id tienen los push del servidor del subscribe address o del subscribe height... necesito saber eso para decodificarlo.
 
 

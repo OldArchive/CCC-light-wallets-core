@@ -10,7 +10,7 @@ import java.util.Map;
 import global.AddressLabel;
 
 /**
- * Created by furszy on 6/29/17.
+ * Created by akshaynexus on 6/29/17.
  */
 public class TransactionWrapper implements Serializable{
 

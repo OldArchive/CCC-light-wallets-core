@@ -4,7 +4,7 @@ import org.conciergej.core.Context;
 import org.conciergej.core.NetworkParameters;
 
 /**
- * Created by furszy on 6/4/17.
+ * Created by akshaynexus on 6/4/17.
  */
 
 public interface WalletConfiguration {
